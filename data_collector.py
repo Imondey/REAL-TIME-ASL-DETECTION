@@ -19,7 +19,7 @@ print("Operations:", 'plus, minus, multiply, divide, space, del')
 
 sign_to_collect = input("Enter the sign you want to collect data for: ").strip()
 signs = [sign_to_collect]  # Only collect for one sign
-num_samples = 100
+num_samples = 250
 
 # --- MediaPipe Initialization ---
 mp_hands = mp.solutions.hands
